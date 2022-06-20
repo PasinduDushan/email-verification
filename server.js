@@ -9,7 +9,7 @@ const MongoStore = require("connect-mongo")(session);
 
 const MongoDBURI =
   process.env.MONGO_URI ||
-  "mongodb+srv://Admin:pasindu2005@1pg.uvh1g.mongodb.net/?retryWrites=true&w=majority";
+  "YOUR_URI";
 
 mongoose.connect(MongoDBURI, {
   useUnifiedTopology: true,
