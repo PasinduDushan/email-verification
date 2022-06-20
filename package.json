@@ -1,7 +1,7 @@
 {
-  "name": "node.js-register-login-app",
+  "name": "email verification app",
   "version": "1.0.0",
-  "description": "This is a user login and registration app using Node.js, Express, Mongoose and express-sessions. :+1:",
+  "description": "This is a email verification system based on MEN stack",
   "main": "server.js",
   "dependencies": {
     "connect-mongo": "^3.0.0",
@@ -17,14 +17,9 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FSojitra/Node.js-Register-Login-App.git"
-  },
-  "author": "foram sojitra",
+  "author": "Pasindu Ranasinghe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FSojitra/Node.js-Register-Login-App/issues"
+    "url": "https://github.com/PasinduDushan/email-verification/issues"
   },
-  "homepage": "https://github.com/FSojitra/Node.js-Register-Login-App#readme"
 }
